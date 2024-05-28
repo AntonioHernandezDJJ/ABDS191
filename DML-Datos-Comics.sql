@@ -67,8 +67,28 @@ INSERT INTO Inventario(id_comic, cantidad_disponible, disponibilidad) VALUES
 (60, 0, 1),       
 (62, 7, 1);      
 	
+	select * from Comic_Compras;
+INSERT INTO Comic_Compras(cantidad, id_comic, id_compra) VALUES
+(36, 36, 118),       
+(38, 38, 121),        
+(40, 40, 124),      
+(42, 42, 127),     
+(44, 44, 130),      
+(46, 46, 133),      
+(48,48, 136),       
+(50, 50, 139),      
+(52, 52, 142),       
+(54, 54, 30103),      
+(56, 56, 30106),      
+(58, 58, 30109),      
+(60, 60, 30112),       
+(62, 62, 30115); 
+
+
 	
 INSERT INTO inventario (id_comic, cantidad_disponible, disponibilidad) VALUES
 (16, 0, 0),      
 (17, 0, 0);       
+
+
 
