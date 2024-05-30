@@ -69,6 +69,7 @@ INSERT INTO Inventario(id_comic, cantidad_disponible, disponibilidad) VALUES
 	
 	select * from Comic_Compras;
 INSERT INTO Comic_Compras(cantidad, id_comic, id_compra) VALUES
+(34, 34, 115),      
 (36, 36, 118),       
 (38, 38, 121),        
 (40, 40, 124),      
